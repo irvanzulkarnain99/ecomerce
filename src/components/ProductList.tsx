@@ -20,7 +20,7 @@ const ProductList = () => {
                 <h2 className="text-lg font-bold mt-2">{product.sku}</h2>
                 <h2 className="text-lg font-semibold text-gray-800 mt-2">{product.title}</h2>
                 <p className="text-green-500 font-semibold">${product.price}</p>
-                {/* <p className="text-black-500 font-semibold">Stock : {product.stock}</p> */}
+                <p className="text-black-500 font-semibold">Stock : {product.stock}</p>
             </CardContent>
         </Card>
       ))}
